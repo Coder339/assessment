@@ -2,24 +2,24 @@
 import React from 'react';
 import {
   SafeAreaView,
-  View,
-  Text,
   StyleSheet,
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-
-import Home from './app/screens/home';
+import { Provider } from 'react-redux';
 import RootStackScreen, { HomeStack } from './app/config/router';
+import store from './app/redux/store';
 
 const App = () => {
 
 
   return (
-    <SafeAreaView style={styles.container}>
-      <NavigationContainer>
-        <RootStackScreen/>
-      </NavigationContainer>
-    </SafeAreaView>
+    <Provider store={store}>
+      <SafeAreaView style={styles.container}>
+        <NavigationContainer>
+          <RootStackScreen/>
+        </NavigationContainer>
+      </SafeAreaView>
+    </Provider>
   );
 };
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, Text, Modal, ActivityIndicator, StyleSheet } from 'react-native';
-// import { THEME } from '../../styles/colors';
 import { colors } from '../../assets/globalstyleconstants';
 
 const Loader = props => {    

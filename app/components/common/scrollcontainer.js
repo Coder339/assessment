@@ -8,7 +8,7 @@ export default function ScrollContainer(props) {
         <View style={{flex:1}}>
             <KeyboardAwareScrollView 
             // automaticallyAdjustContentInsets={false}
-            // resetScrollToCoords={{ x: 0, y: 0 }}
+            keyboardShouldPersistTaps="handled"
             showsVerticalScrollIndicator={false}
             enableOnAndroid={true}
             contentContainerStyle={{...props.style,...styles.keyboard}}

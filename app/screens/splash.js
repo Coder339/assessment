@@ -1,9 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import { StyleSheet, Text, View,Image } from 'react-native'
 import { fonts, colors } from '../assets/globalstyleconstants'
-// import { horizontalScale } from '../assets/globalstylefunctions'
 import {useNavigation} from '@react-navigation/native';
-import AsyncStorage from '@react-native-community/async-storage';
 import { scaleWidth } from '../assets/globalstylefunctions';
 
 export default function Splash() {
@@ -14,27 +12,21 @@ export default function Splash() {
     useEffect(() => {
         setTimeout(() => {
           setAnimating(false);
-          //Check if user_id is set or not
-          //If not then send for Authentication
-          //else send to Home Screen
-          AsyncStorage.getItem('userToken').then((value) =>
-            navigation.replace(
-              value === null ? 'Auth' : 'App'
-            ),
-          );
+          navigation.replace('App')
+          
         }, 5000);
       }, []);
 
     return (
         <View style={styles.splash}>
             <View style={styles.circle}>
-                <Text style={styles.drag}>Let's Go</Text>
+                <Text style={styles.text}>Let's Go</Text>
             </View>
         </View>
     )
 }
 
-let CIRCLE_RADIUS = 30;
+let CIRCLE_RADIUS = scaleWidth('10%');
 const styles = StyleSheet.create({
     splash:{
         flex:1,
@@ -50,7 +42,7 @@ const styles = StyleSheet.create({
         justifyContent:'center',
         alignItems:'center'
     },
-    drag:{
+    text:{
         color:'white',
         fontFamily:fonts.FasterOneRegular,
         fontSize:scaleWidth('5%')

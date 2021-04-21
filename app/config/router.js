@@ -1,47 +1,34 @@
 
-import React from 'react';
+import React,{useState} from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 
-import Home from '../screens/home';
-import Test from '../screens/test';
-import Login from '../screens/login';
 import Splash from '../screens/splash';
+import Screen1 from '../screens/screen1';
+import Screen2 from '../screens/screen2';
 
-const Stack = createStackNavigator();  // Testing as of now. 
+const Drawer = createDrawerNavigator();  
+
+const Stack = createStackNavigator()
 
 
-export function AuthStack() {
 
-  return (
-    <Stack.Navigator
-      mode='modal'
-      initialRouteName='signIn'
-      screenOptions={{
-        headerShown: false
-      }}
-    >
-      <Stack.Screen name="SignIn" component={Login}/>
-      {/* <Stack.Screen name="Signup" component={Signup}/> */}
-    </Stack.Navigator>
-  );
-}
+export function MenuStack() {
 
-export function HomeStack({route,navigation}) {
+  // const [count, setCount] = useState(0)
 
   return (
-    <Stack.Navigator
-      mode='modal'
-      initialRouteName="Home"
-      screenOptions={{
-        headerShown: false
-      }}
-    >
-      <Stack.Screen name="Home" component={Home}/>
-      <Stack.Screen name="Test" component={Test}/>
-    </Stack.Navigator>
+    <Drawer.Navigator 
+        initialRouteName="screen1" 
+        drawerPosition='right'
+        drawerStyle={{
+        }}
+        >
+        <Drawer.Screen name="screen1" component={Screen1} />
+        <Drawer.Screen name="screen2" component={Screen2} />
+      </Drawer.Navigator>
   );
 }
-
 
 export default function RootStackScreen(){
 
@@ -53,13 +40,8 @@ export default function RootStackScreen(){
         options={{headerShown: false}}
       />
       <Stack.Screen
-        name="Auth"
-        component={AuthStack}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen
         name="App"
-        component={HomeStack}
+        component={MenuStack}
         options={{headerShown: false}}
       />
     </Stack.Navigator>
