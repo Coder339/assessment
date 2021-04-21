@@ -6,8 +6,8 @@ import {
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { Provider } from 'react-redux';
-import RootStackScreen, { HomeStack } from './app/config/router';
-import store from './app/redux/store';
+import RootStackScreen, { HomeStack } from './config/router';
+import store from './redux/store';
 
 const App = () => {
 

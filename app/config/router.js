@@ -6,6 +6,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import Splash from '../screens/splash';
 import Screen1 from '../screens/screen1';
 import Screen2 from '../screens/screen2';
+import Language from '../screens/language';
 
 const Drawer = createDrawerNavigator();  
 
@@ -26,6 +27,7 @@ export function MenuStack() {
         >
         <Drawer.Screen name="screen1" component={Screen1} />
         <Drawer.Screen name="screen2" component={Screen2} />
+        <Drawer.Screen name="language" component={Language} />
       </Drawer.Navigator>
   );
 }
