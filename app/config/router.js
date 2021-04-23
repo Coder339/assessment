@@ -7,6 +7,8 @@ import Splash from '../screens/splash';
 import Screen1 from '../screens/screen1';
 import Screen2 from '../screens/screen2';
 import Language from '../screens/language';
+import MapScreen from '../screens/mapscreen';
+import Loader from '../screens/loader';
 
 const Drawer = createDrawerNavigator();  
 
@@ -28,6 +30,8 @@ export function MenuStack() {
         <Drawer.Screen name="screen1" component={Screen1} />
         <Drawer.Screen name="screen2" component={Screen2} />
         <Drawer.Screen name="language" component={Language} />
+        <Drawer.Screen name="mapscreen" component={MapScreen} />
+        <Drawer.Screen name="loader" component={Loader} />
       </Drawer.Navigator>
   );
 }

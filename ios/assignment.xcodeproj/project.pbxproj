@@ -8,10 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* assignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* assignmentTests.m */; };
+		069460D094174C9EA35AAB6C /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4C6E173613248699728AF96 /* Montserrat-ExtraLight.ttf */; };
+		0CD05025CFCE486CB18BF463 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E33B8D32881940FBB128FFE7 /* Montserrat-BoldItalic.ttf */; };
+		0E60E785D350493284FDB34B /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C02DFEB0F4174450B6D8EA62 /* Montserrat-MediumItalic.ttf */; };
+		131EB1CE08DF44CEA983E0BC /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36018B693C1C406EBAECD419 /* Montserrat-LightItalic.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1F2CA95B9C06443BBFA0FB0C /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AFF242F1BA5476D864C9C78 /* Montserrat-ExtraLightItalic.ttf */; };
+		287587B70BF1464C83845D44 /* Orbitron-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7199D2766B204067AFCBC6F7 /* Orbitron-Medium.ttf */; };
+		4E327BDE699F44B19802A41C /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59F27AA0770545B4881BFA38 /* Montserrat-ExtraBold.ttf */; };
+		52F251C48D014EDFB751678D /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 833269E0091447CBA1A47B8F /* Montserrat-SemiBoldItalic.ttf */; };
+		574D024ACA214C6C8F460583 /* Courgette-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09E69A2B103B4C2199C13FC0 /* Courgette-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		81F8DB47A7304AA19DEF40AD /* Orbitron-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CEE6AF872FC477497EDE6AB /* Orbitron-Black.ttf */; };
+		8437FF5D14ED4FBE900F4D8F /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FB5906D886548338FA37612 /* Montserrat-Regular.ttf */; };
+		84655A97A36A486B99660421 /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBFC0F685742299ADEFF42 /* PressStart2P-Regular.ttf */; };
+		86077CFF09A54C85AFD65137 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 344AED002CD1443F8A9D839B /* Montserrat-SemiBold.ttf */; };
+		87D33A4ADF78446085E5157A /* Orbitron-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73D3145FD0B44B248C3FD28C /* Orbitron-Bold.ttf */; };
+		88B87E8B180842F394C6F7A1 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2759226AB5044AF880BC7D9B /* Montserrat-ThinItalic.ttf */; };
+		8C8BC4B256C344229A20057F /* Orbitron-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9961B1562B74D899F24C6C3 /* Orbitron-Regular.ttf */; };
+		8E4CA83AF6304F7480FE5FB4 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1438E600D82494E880F9058 /* Montserrat-BlackItalic.ttf */; };
+		9812E46364EC4CA6BBB9EBBD /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2E9C9C43E224A2AB6F3BB92 /* Montserrat-Black.ttf */; };
+		9CE320D7DBDB49AB81B55BED /* Orbitron-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E26B0F444AF4973A3CD268A /* Orbitron-SemiBold.ttf */; };
+		B35BDE917E9DB5298757C497 /* libPods-assignment-assignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73689E0F2330E9E1CFC4C338 /* libPods-assignment-assignmentTests.a */; };
+		B516429FD60B4F0E957D20B2 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA94C3ECD45742499D55AFCF /* Montserrat-Light.ttf */; };
+		BFE0C9B2711DE0CB925BFF70 /* libPods-assignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F33029D9D7A542E8B416ED36 /* libPods-assignment.a */; };
+		C39882EE591C486F831597F9 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 156049BFFF8743E2894D0F49 /* Montserrat-ExtraBoldItalic.ttf */; };
+		DC89053C239744E1892E0292 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A1C7587B5640CC8FCE6F23 /* Montserrat-Medium.ttf */; };
+		DF94339EDE994FD6B9A184E4 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B1BD141D90541EB8C4C4B54 /* Montserrat-Bold.ttf */; };
+		EFC6A26EE8064CFDB590BEA3 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 014ABC9844964615B8A46DE6 /* Montserrat-Italic.ttf */; };
+		F179EF598818439FA8434F65 /* FasterOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60FAE9E2BD1646A6A8282235 /* FasterOne-Regular.ttf */; };
+		F4788108C94349129B18165E /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C13B6D5F93AD42C3953660CA /* Montserrat-Thin.ttf */; };
+		FF612723AF834CECBC5D1C10 /* Orbitron-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E0EEB351BBC443DBC262FF4 /* Orbitron-ExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +57,47 @@
 		00E356EE1AD99517003FC87E /* assignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* assignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = assignmentTests.m; sourceTree = "<group>"; };
+		014ABC9844964615B8A46DE6 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../app/assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		09E69A2B103B4C2199C13FC0 /* Courgette-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Courgette-Regular.ttf"; path = "../app/assets/fonts/Courgette-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = assignment/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = assignment/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = assignment/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = assignment/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = assignment/main.m; sourceTree = "<group>"; };
+		156049BFFF8743E2894D0F49 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		1FB5906D886548338FA37612 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../app/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		2197575BC94FC47DA9E205F5 /* Pods-assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assignment.release.xcconfig"; path = "Target Support Files/Pods-assignment/Pods-assignment.release.xcconfig"; sourceTree = "<group>"; };
+		2759226AB5044AF880BC7D9B /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../app/assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		30C797E604882487EDEA515F /* Pods-assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assignment.debug.xcconfig"; path = "Target Support Files/Pods-assignment/Pods-assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		344AED002CD1443F8A9D839B /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../app/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		36018B693C1C406EBAECD419 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../app/assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		3FBBFC0F685742299ADEFF42 /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PressStart2P-Regular.ttf"; path = "../app/assets/fonts/PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
+		52A1C7587B5640CC8FCE6F23 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../app/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		59F27AA0770545B4881BFA38 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../app/assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		5CEE6AF872FC477497EDE6AB /* Orbitron-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Orbitron-Black.ttf"; path = "../app/assets/fonts/Orbitron-Black.ttf"; sourceTree = "<group>"; };
+		60FAE9E2BD1646A6A8282235 /* FasterOne-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FasterOne-Regular.ttf"; path = "../app/assets/fonts/FasterOne-Regular.ttf"; sourceTree = "<group>"; };
+		6E0EEB351BBC443DBC262FF4 /* Orbitron-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Orbitron-ExtraBold.ttf"; path = "../app/assets/fonts/Orbitron-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7199D2766B204067AFCBC6F7 /* Orbitron-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Orbitron-Medium.ttf"; path = "../app/assets/fonts/Orbitron-Medium.ttf"; sourceTree = "<group>"; };
+		73689E0F2330E9E1CFC4C338 /* libPods-assignment-assignmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-assignment-assignmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D3145FD0B44B248C3FD28C /* Orbitron-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Orbitron-Bold.ttf"; path = "../app/assets/fonts/Orbitron-Bold.ttf"; sourceTree = "<group>"; };
+		7E26B0F444AF4973A3CD268A /* Orbitron-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Orbitron-SemiBold.ttf"; path = "../app/assets/fonts/Orbitron-SemiBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = assignment/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		833269E0091447CBA1A47B8F /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		8AFF242F1BA5476D864C9C78 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		8B1BD141D90541EB8C4C4B54 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../app/assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		A9961B1562B74D899F24C6C3 /* Orbitron-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Orbitron-Regular.ttf"; path = "../app/assets/fonts/Orbitron-Regular.ttf"; sourceTree = "<group>"; };
+		C02DFEB0F4174450B6D8EA62 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../app/assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C13B6D5F93AD42C3953660CA /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../app/assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		C1438E600D82494E880F9058 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../app/assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C6CE872823DB56B98E6BE7F1 /* Pods-assignment-assignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assignment-assignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-assignment-assignmentTests/Pods-assignment-assignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E33B8D32881940FBB128FFE7 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../app/assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EA94C3ECD45742499D55AFCF /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../app/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EEDC9E7CED7A07BFD026E72F /* Pods-assignment-assignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-assignment-assignmentTests.release.xcconfig"; path = "Target Support Files/Pods-assignment-assignmentTests/Pods-assignment-assignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2E9C9C43E224A2AB6F3BB92 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../app/assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		F33029D9D7A542E8B416ED36 /* libPods-assignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-assignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C6E173613248699728AF96 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../app/assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35BDE917E9DB5298757C497 /* libPods-assignment-assignmentTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE0C9B2711DE0CB925BFF70 /* libPods-assignment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +154,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				F33029D9D7A542E8B416ED36 /* libPods-assignment.a */,
+				73689E0F2330E9E1CFC4C338 /* libPods-assignment-assignmentTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,6 +175,8 @@
 				00E356EF1AD99517003FC87E /* assignmentTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				AF58E8EC0C58941ACFCC70F0 /* Pods */,
+				8557C4646A4F4FE0A84278C4 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -124,6 +192,53 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8557C4646A4F4FE0A84278C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09E69A2B103B4C2199C13FC0 /* Courgette-Regular.ttf */,
+				60FAE9E2BD1646A6A8282235 /* FasterOne-Regular.ttf */,
+				F2E9C9C43E224A2AB6F3BB92 /* Montserrat-Black.ttf */,
+				C1438E600D82494E880F9058 /* Montserrat-BlackItalic.ttf */,
+				8B1BD141D90541EB8C4C4B54 /* Montserrat-Bold.ttf */,
+				E33B8D32881940FBB128FFE7 /* Montserrat-BoldItalic.ttf */,
+				59F27AA0770545B4881BFA38 /* Montserrat-ExtraBold.ttf */,
+				156049BFFF8743E2894D0F49 /* Montserrat-ExtraBoldItalic.ttf */,
+				F4C6E173613248699728AF96 /* Montserrat-ExtraLight.ttf */,
+				8AFF242F1BA5476D864C9C78 /* Montserrat-ExtraLightItalic.ttf */,
+				014ABC9844964615B8A46DE6 /* Montserrat-Italic.ttf */,
+				EA94C3ECD45742499D55AFCF /* Montserrat-Light.ttf */,
+				36018B693C1C406EBAECD419 /* Montserrat-LightItalic.ttf */,
+				52A1C7587B5640CC8FCE6F23 /* Montserrat-Medium.ttf */,
+				C02DFEB0F4174450B6D8EA62 /* Montserrat-MediumItalic.ttf */,
+				1FB5906D886548338FA37612 /* Montserrat-Regular.ttf */,
+				344AED002CD1443F8A9D839B /* Montserrat-SemiBold.ttf */,
+				833269E0091447CBA1A47B8F /* Montserrat-SemiBoldItalic.ttf */,
+				C13B6D5F93AD42C3953660CA /* Montserrat-Thin.ttf */,
+				2759226AB5044AF880BC7D9B /* Montserrat-ThinItalic.ttf */,
+				5CEE6AF872FC477497EDE6AB /* Orbitron-Black.ttf */,
+				73D3145FD0B44B248C3FD28C /* Orbitron-Bold.ttf */,
+				6E0EEB351BBC443DBC262FF4 /* Orbitron-ExtraBold.ttf */,
+				7199D2766B204067AFCBC6F7 /* Orbitron-Medium.ttf */,
+				A9961B1562B74D899F24C6C3 /* Orbitron-Regular.ttf */,
+				7E26B0F444AF4973A3CD268A /* Orbitron-SemiBold.ttf */,
+				3FBBFC0F685742299ADEFF42 /* PressStart2P-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		AF58E8EC0C58941ACFCC70F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30C797E604882487EDEA515F /* Pods-assignment.debug.xcconfig */,
+				2197575BC94FC47DA9E205F5 /* Pods-assignment.release.xcconfig */,
+				C6CE872823DB56B98E6BE7F1 /* Pods-assignment-assignmentTests.debug.xcconfig */,
+				EEDC9E7CED7A07BFD026E72F /* Pods-assignment-assignmentTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "assignmentTests" */;
 			buildPhases = (
+				F0258789E9A0FED6658907F6 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				FE2515492FD0E0FE10D6D2A6 /* [CP] Embed Pods Frameworks */,
+				4D24734998EC5EBFDA779F77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,11 +267,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "assignment" */;
 			buildPhases = (
+				F81B37D27BA7B69F295EE8A1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				8A01BD72D00589A2870C1ABC /* [CP] Embed Pods Frameworks */,
+				5AB664C0CA9DC7605DC9AB11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +335,33 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				574D024ACA214C6C8F460583 /* Courgette-Regular.ttf in Resources */,
+				F179EF598818439FA8434F65 /* FasterOne-Regular.ttf in Resources */,
+				9812E46364EC4CA6BBB9EBBD /* Montserrat-Black.ttf in Resources */,
+				8E4CA83AF6304F7480FE5FB4 /* Montserrat-BlackItalic.ttf in Resources */,
+				DF94339EDE994FD6B9A184E4 /* Montserrat-Bold.ttf in Resources */,
+				0CD05025CFCE486CB18BF463 /* Montserrat-BoldItalic.ttf in Resources */,
+				4E327BDE699F44B19802A41C /* Montserrat-ExtraBold.ttf in Resources */,
+				C39882EE591C486F831597F9 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				069460D094174C9EA35AAB6C /* Montserrat-ExtraLight.ttf in Resources */,
+				1F2CA95B9C06443BBFA0FB0C /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				EFC6A26EE8064CFDB590BEA3 /* Montserrat-Italic.ttf in Resources */,
+				B516429FD60B4F0E957D20B2 /* Montserrat-Light.ttf in Resources */,
+				131EB1CE08DF44CEA983E0BC /* Montserrat-LightItalic.ttf in Resources */,
+				DC89053C239744E1892E0292 /* Montserrat-Medium.ttf in Resources */,
+				0E60E785D350493284FDB34B /* Montserrat-MediumItalic.ttf in Resources */,
+				8437FF5D14ED4FBE900F4D8F /* Montserrat-Regular.ttf in Resources */,
+				86077CFF09A54C85AFD65137 /* Montserrat-SemiBold.ttf in Resources */,
+				52F251C48D014EDFB751678D /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				F4788108C94349129B18165E /* Montserrat-Thin.ttf in Resources */,
+				88B87E8B180842F394C6F7A1 /* Montserrat-ThinItalic.ttf in Resources */,
+				81F8DB47A7304AA19DEF40AD /* Orbitron-Black.ttf in Resources */,
+				87D33A4ADF78446085E5157A /* Orbitron-Bold.ttf in Resources */,
+				FF612723AF834CECBC5D1C10 /* Orbitron-ExtraBold.ttf in Resources */,
+				287587B70BF1464C83845D44 /* Orbitron-Medium.ttf in Resources */,
+				8C8BC4B256C344229A20057F /* Orbitron-Regular.ttf in Resources */,
+				9CE320D7DBDB49AB81B55BED /* Orbitron-SemiBold.ttf in Resources */,
+				84655A97A36A486B99660421 /* PressStart2P-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +382,101 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
+		4D24734998EC5EBFDA779F77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-assignment-assignmentTests/Pods-assignment-assignmentTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-assignment-assignmentTests/Pods-assignment-assignmentTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-assignment-assignmentTests/Pods-assignment-assignmentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AB664C0CA9DC7605DC9AB11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-assignment/Pods-assignment-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-assignment/Pods-assignment-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-assignment/Pods-assignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A01BD72D00589A2870C1ABC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-assignment/Pods-assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-assignment/Pods-assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-assignment/Pods-assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0258789E9A0FED6658907F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-assignment-assignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F81B37D27BA7B69F295EE8A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +494,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2515492FD0E0FE10D6D2A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-assignment-assignmentTests/Pods-assignment-assignmentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-assignment-assignmentTests/Pods-assignment-assignmentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-assignment-assignmentTests/Pods-assignment-assignmentTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -286,6 +546,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CE872823DB56B98E6BE7F1 /* Pods-assignment-assignmentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -312,6 +573,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDC9E7CED7A07BFD026E72F /* Pods-assignment-assignmentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -335,6 +597,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C797E604882487EDEA515F /* Pods-assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -360,6 +623,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2197575BC94FC47DA9E205F5 /* Pods-assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -414,6 +678,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -478,6 +743,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

@@ -244,9 +244,10 @@ export default function Screen1({route}) {
 const styles = StyleSheet.create({
     container:{
         // flexGrow:1,
+        flex:1,
         backgroundColor:colors.white,
         alignItems:'center',
-        height:scaleHeight('100%')
+        // height:scaleHeight('100%')
     },
     logo:{
         fontFamily:fonts.FasterOneRegular,
